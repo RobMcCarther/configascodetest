@@ -3,3 +3,7 @@ variable "Testing" {
         environment = ["test"]
     }
 }
+
+variable "OctopusPrintVariables" {
+    value "true" {}
+}
