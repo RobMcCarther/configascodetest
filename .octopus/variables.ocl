@@ -7,3 +7,7 @@ variable "Testing" {
 variable "OctopusPrintVariables" {
     value "true" {}
 }
+
+variable "OctopusPrintEvaluatedVariables" {
+    value "true" {}
+}
