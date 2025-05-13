@@ -8,6 +8,6 @@ variable "OctopusPrintEvaluatedVariables" {
 
 variable "Testing" {
     value "101" {
-        environment = ["test"]
+        environment = ["staging"]
     }
 }
