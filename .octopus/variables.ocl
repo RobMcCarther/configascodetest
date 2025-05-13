@@ -1,13 +1,13 @@
-variable "Testing" {
-    value "10" {
-        environment = ["test"]
-    }
-}
-
 variable "OctopusPrintVariables" {
     value "true" {}
 }
 
 variable "OctopusPrintEvaluatedVariables" {
     value "true" {}
+}
+
+variable "Testing" {
+    value "101" {
+        environment = ["test"]
+    }
 }
