@@ -16,9 +16,9 @@ jobs:
               username: ${{ secrets.ACR_USERNAME }}
               password: ${{ secrets.ACR_PASSWORD }}
         - name: Build and push container image to registry
-          uses: docker/build-push-action@v6
+          uses: docker/build-push-action@v5
           with:
             push: true
             tags: brittoncr.azurecr.io/latest
             file: "Dockerfile"
-            outputs: type=oci
+            outputs: type=docker
