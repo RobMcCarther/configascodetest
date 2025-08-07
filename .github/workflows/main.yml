@@ -21,3 +21,4 @@ jobs:
             push: true
             tags: brittoncr.azurecr.io/latest
             file: "Dockerfile"
+            outputs: type=oci
