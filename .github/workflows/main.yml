@@ -18,6 +18,7 @@ jobs:
         - name: Build and push container image to registry
           uses: docker/build-push-action@v5
           with:
+            context: .
             push: true
             tags: latest
             file: "Dockerfile"
