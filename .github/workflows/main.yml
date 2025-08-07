@@ -20,5 +20,5 @@ jobs:
           with:
             context: .
             push: true
-            tags: brittoncr.azurecr.io:latest
+            tags: brittoncr.azurecr.io/latest
             file: "Dockerfile"
