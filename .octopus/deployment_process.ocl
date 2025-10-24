@@ -9,6 +9,7 @@ step "run-a-script" {
             Octopus.Action.Script.Syntax = "PowerShell"
             OctopusUseBundledTooling = "False"
         }
+        tenant_tags = ["Test Tenant Tag/Test"]
         worker_pool = "hosted-windows"
     }
 }
